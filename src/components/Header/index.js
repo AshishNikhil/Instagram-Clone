@@ -191,7 +191,6 @@ class Header extends Component {
                         className="header-search-button"
                         type="button"
                         onClick={this.onClickSearchButton}
-                        testid="searchIcon"
                       >
                         <FaSearch className="header-search-icon" />
                       </button>
@@ -211,7 +210,6 @@ class Header extends Component {
                         className="header-search-button"
                         type="button"
                         onClick={this.onClickSearchButton}
-                        testid="searchIcon"
                       >
                         <FaSearch className="header-search-icon" />
                       </button>

@@ -123,7 +123,7 @@ class UserStories extends Component {
 
   renderLoadingView = () => (
     <>
-      <div className="stories-loading-container" testid="loader">
+      <div className="stories-loading-container">
         <Loader type="TailSpin" color="#4094EF" height={30} width={30} />
       </div>
       <hr className="story-footer-rule" />

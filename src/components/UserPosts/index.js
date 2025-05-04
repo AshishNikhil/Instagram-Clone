@@ -77,7 +77,7 @@ class UserPosts extends Component {
   }
 
   renderLoadingView = () => (
-    <div className="user-posts-loader-container" testid="loader">
+    <div className="user-posts-loader-container">
       <Loader type="TailSpin" color="#4094EF" height={50} width={50} />
     </div>
   )

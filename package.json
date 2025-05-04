@@ -1,4 +1,5 @@
 {
+  "homepage": "https://AshishNikhil.github.io/login",
   "name": "insta-share",
   "private": true,
   "version": "1.0.0",
@@ -42,7 +43,9 @@
     "lint": "eslint .",
     "lint:fix": "eslint --fix src/",
     "format": "prettier --write \"./src\"",
-    "run-all": "npm-run-all --parallel test lint:fix"
+    "run-all": "npm-run-all --parallel test lint:fix",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "lint-staged": {
     "*.js": [

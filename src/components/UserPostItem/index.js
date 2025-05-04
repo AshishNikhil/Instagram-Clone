@@ -86,7 +86,6 @@ class UserPostItem extends Component {
               <button
                 className="upi-reaction-button"
                 type="button"
-                testid="unLikeIcon"
                 onClick={this.onClickLikeButton}
               >
                 <FcLike className="upi-like-icon" />
@@ -95,7 +94,6 @@ class UserPostItem extends Component {
               <button
                 className="upi-reaction-button"
                 type="button"
-                testid="likeIcon"
                 onClick={this.onClickLikeButton}
               >
                 <AiOutlineHeart className="upi-unlike-icon" />
